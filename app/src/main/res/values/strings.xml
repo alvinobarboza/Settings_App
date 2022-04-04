@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Configurações</string>
+    <string name="browse_title">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="apps">Gerênciar aplicativos</string>
+    <string name="settings">Configurações</string>
+    <string name="preference">Preferências</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+</resources>
