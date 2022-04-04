@@ -1,3 +1,3 @@
 # Settings_App
 
-Simple app for Android TV servings as shortcut to Android Settings.
+Simple app for Android TV serving as shortcut to Android Settings.
