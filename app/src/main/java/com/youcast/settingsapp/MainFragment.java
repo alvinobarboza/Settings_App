@@ -142,11 +142,15 @@ public class MainFragment extends BrowseSupportFragment {
         @Override
         public void onItemClicked(Presenter.ViewHolder itemViewHolder, Object item,
                                   RowPresenter.ViewHolder rowViewHolder, Row row) {
-            if(((String) item).equals("Gerênciar aplicativos")){
+            if(((String) item).equals(getResources().getString(R.string.apps)))
+            {
                 startActivity( new Intent(Settings.ACTION_MANAGE_APPLICATIONS_SETTINGS));
-            }else if(((String) item).equals("Configurações")){
+            }
+            else if(((String) item).equals(getResources().getString(R.string.settings)))
+            {
                 startActivity( new Intent(Settings.ACTION_SETTINGS));
-            }else if(((String) item).equals("Sobre")){
+            }
+            else if(((String) item).equals(getResources().getString(R.string.about))){
                 Intent intent = getActivity()
                         .getPackageManager()
                         .getLaunchIntentForPackage("com.changhong.systeminfo");
